@@ -1,0 +1,121 @@
+
+body {
+    background-color: black;
+  
+    
+}
+
+@font-face {
+    font-family: 'digital';
+    src: url(DS-DIGI.TTF) format('truetype');
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+
+.display, p {
+    text-align: center;
+    font-family: 'digital';
+    font-weight: normal;
+    color: lime;
+    margin: 0;
+
+    
+ 
+}
+
+p {
+border-style: solid;
+border-radius: 10px;
+border-width: 10px;
+font-size: 18em;
+padding: 20px;
+}
+
+.data {
+    text-align: center;
+    font-family: 'digital';
+    font-weight: normal;
+    font-size: 6em;
+    color: lime;
+
+}
+
+footer{
+    text-align: center;
+    font-family: 'digital';
+    font-weight: normal;
+    color: lime;
+    font-size: 2em;
+}
+
+
+@media (max-width: 1000px) {
+    p {
+        font-size:18em;
+        
+        
+
+}
+@media (max-width: 880px) {
+    p {
+        font-size:14em;
+    }
+}
+
+@media (max-width: 800px) {
+    p {
+        font-size:13em;
+    }
+}
+
+@media (max-width: 700px) {
+    p {
+        font-size:10em;
+    }
+}
+
+@media (max-width: 690px) {
+   p {
+        font-size: 9em;
+    }
+}
+
+@media (max-width: 500px) {
+    p {
+         font-size: 5em;
+     }
+     .data {
+        font-size: 3em;
+     }
+    footer {
+        font-size: 1em;
+}
+
+}
+
+
+
+@media (max-width: 360px) {
+    p {
+         font-size: 5em;
+     }
+     .data {
+        font-size: 3em;
+     }
+    footer {
+        font-size: 1em;
+}
+
+}
+
+
+}
