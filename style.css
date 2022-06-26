@@ -102,6 +102,19 @@ footer{
 
 }
 
+@media (max-width: 480px) {
+    p {
+         font-size: 6em;
+     }
+     .data {
+        font-size: 4em;
+     }
+    footer {
+        font-size: 1em;
+}
+
+}
+
 
 
 @media (max-width: 360px) {
