@@ -91,10 +91,10 @@ footer{
 
 @media (max-width: 500px) {
     p {
-         font-size: 5em;
+         font-size: 6em;
      }
      .data {
-        font-size: 3em;
+        font-size: 4em;
      }
     footer {
         font-size: 1em;
