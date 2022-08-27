@@ -1,6 +1,10 @@
 
 body {
-    background-color: black;
+    background-color: #16191A;
+    background-image: url(./img/background-green.jpg);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
   
     
 }
@@ -44,7 +48,7 @@ p {
 border-radius: 10px;
 border-width: 10px;
 font-size: 18em;
-padding: 20px;
+padding: 5px;
 }
 
 .data {
@@ -172,13 +176,21 @@ footer a:hover {
 
 
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {   
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 30%;
+        height: 82vh;
+    } 
     #display {
         border: 7px solid lime;
         border-radius: 5px;
+        
     }
     #display > p {
          font-size: 4em;
+         
          
      }
      .data {
@@ -191,6 +203,12 @@ footer a:hover {
 }
 
 @media (max-width: 320px) {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 30%;
+        height: 82vh;
+    }
     #display {
         border: 7px solid lime;
         border-radius: 5px;
