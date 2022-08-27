@@ -21,7 +21,15 @@ body {
 
 }
 
-.display, p {
+#display {
+    border: 15px solid lime;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+
+}
+
+p {
     text-align: center;
     font-family: 'digital';
     font-weight: normal;
@@ -33,7 +41,6 @@ body {
 }
 
 p {
-border-style: solid;
 border-radius: 10px;
 border-width: 10px;
 font-size: 18em;
@@ -57,44 +64,88 @@ footer{
     font-size: 2em;
 }
 
+footer a {
+    text-decoration: none;
+    color: lime;
+    cursor: pointer;
+}
 
-@media (max-width: 1000px) {
-    p {
-        font-size:18em;
-        
-        
+footer a:hover {
+    color: white;
 
 }
-@media (max-width: 880px) {
-    p {
-        font-size:14em;
+
+
+@media (max-width: 1400px) {
+    #display > p {
+        font-size:15em;
     }
 }
 
-@media (max-width: 800px) {
-    p {
+@media (max-width: 1000px) {
+    #display > p {
+        font-size:14em;
+    
+    }
+            
+
+}
+
+@media (max-width: 910px) {
+    #display > p  {
         font-size:13em;
     }
 }
 
-@media (max-width: 700px) {
-    p {
-        font-size:10em;
+@media (max-width: 880px) {
+    #display > p  {
+        font-size:12em;
     }
+}
+
+@media (max-width: 760px) {
+    #display > p  {
+        font-size:11em;
+    }
+}
+
+@media (max-width: 700px) {
+    #display > p  {
+        font-size:11em;
+    }
+    .data {
+        font-size: 5em;
+     }
 }
 
 @media (max-width: 690px) {
-   p {
+    #display > p  {
         font-size: 9em;
     }
+    .data {
+        font-size: 4em;
+     }
 }
 
-@media (max-width: 550px) {
-    p {
-         font-size: 9em;
+@media (max-width: 570px) {
+    #display > p  {
+         font-size: 8em;
      }
      .data {
-        font-size: 5em;
+        font-size: 3em;
+     }
+    footer {
+        font-size: 1em;
+}
+
+}
+
+@media (max-width: 520px) {
+    #display > p  {
+         font-size: 6.5em;
+     }
+     .data {
+        font-size: 3em;
      }
     footer {
         font-size: 1em;
@@ -103,22 +154,11 @@ footer{
 }
 
 @media (max-width: 480px) {
-    p {
-         font-size: 6em;
-     }
-     .data {
-        font-size: 4em;
-     }
-    footer {
-        font-size: 1em;
-}
-
-}
-
-
-
-@media (max-width: 360px) {
-    p {
+    #display {
+        border: 10px solid lime;
+        border-radius: 5px;
+    }
+    #display > p  {
          font-size: 5em;
      }
      .data {
@@ -131,4 +171,41 @@ footer{
 }
 
 
+
+@media (max-width: 360px) {
+    #display {
+        border: 7px solid lime;
+        border-radius: 5px;
+    }
+    #display > p {
+         font-size: 4em;
+         
+     }
+     .data {
+        font-size: 2em;
+     }
+    footer {
+        font-size: 1em;
 }
+
+}
+
+@media (max-width: 320px) {
+    #display {
+        border: 7px solid lime;
+        border-radius: 5px;
+    
+    }
+    #display > p {
+         font-size: 4.2em;
+     }
+     .data {
+        font-size: 2em;
+     }
+    footer {
+        font-size: 1em;
+}
+
+}
+
+
