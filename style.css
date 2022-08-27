@@ -153,6 +153,11 @@ footer a:hover {
 }
 
 @media (max-width: 520px) {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        height: 82vh;
+    }  
     #display > p  {
          font-size: 6.5em;
      }
@@ -167,8 +172,10 @@ footer a:hover {
 
 @media (max-width: 480px) {
     .container {
-        margin-top: -10px;
-    }
+        display: flex;
+        justify-content: flex-start;
+        height: 82vh;
+    }     
     
     #display > p  {
          font-size: 5em;
@@ -187,8 +194,8 @@ footer a:hover {
 @media (max-width: 375px) {   
     .container {
         display: flex;
-        justify-content: center;
-        height: 82vh;
+        justify-content: flex-start;
+        height: 80vh;
     }     
 
     #display > p {
