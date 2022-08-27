@@ -43,17 +43,11 @@ p {
     font-family: 'digital';
     font-weight: normal;
     color: lime;
-    margin: 0;
-
-    
+    margin: 0;    
  
 }
 
-p {
-border-radius: 10px;
-border-width: 10px;
-font-size: 18em;
-}
+
 
 .data {
     text-align: center;
@@ -85,13 +79,14 @@ footer a:hover {
 
 
 @media (max-width: 1400px) {
-    #display > p {
+    #display > p {        
         font-size:15em;
     }
 }
 
 @media (max-width: 1000px) {
     #display > p {
+
         font-size:14em;
     
     }
@@ -101,6 +96,7 @@ footer a:hover {
 
 @media (max-width: 910px) {
     #display > p  {
+
         font-size:13em;
     }
 }
@@ -113,12 +109,14 @@ footer a:hover {
 
 @media (max-width: 760px) {
     #display > p  {
+
         font-size:11em;
     }
 }
 
 @media (max-width: 700px) {
     #display > p  {
+
         font-size:11em;
     }
     .data {
@@ -192,8 +190,6 @@ footer a:hover {
         justify-content: center;
         height: 82vh;
     }     
-        
-    }
 
     #display > p {
          font-size: 4em;
@@ -209,26 +205,27 @@ footer a:hover {
 
 }
 
+
 @media (max-width: 320px) {
     .container {
         display: flex;
         justify-content: center;
         margin-top: -10px;
         height: 82vh;
-    }
-   
+    }  
     
-    }
     #display > p {
          font-size: 4.2em;
-     }
-     .data {
+    }
+    .data {
         font-size: 2em;
-     }
+    }
+    
     footer {
         font-size: 1em;
 }
 
 }
+
 
 
