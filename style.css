@@ -1,10 +1,13 @@
 
 body {
-    background-color: #16191A;
+    background-color:#010101;
     background-image: url(./img/background-green.jpg);
     background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding: 0;
   
     
 }
@@ -18,15 +21,17 @@ body {
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
+
+    
 
 
 }
 
 #display {
-    border: 15px solid lime;
+    /* border: 1px solid lime; */
     border-radius: 10px;
     width: 80%;
     text-align: center;
@@ -48,7 +53,6 @@ p {
 border-radius: 10px;
 border-width: 10px;
 font-size: 18em;
-padding: 5px;
 }
 
 .data {
@@ -123,6 +127,12 @@ footer a:hover {
 }
 
 @media (max-width: 690px) {
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 9%;
+        height: 82vh;
+    }
     #display > p  {
         font-size: 9em;
     }
@@ -158,10 +168,10 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
-    #display {
-        border: 10px solid lime;
-        border-radius: 5px;
+    .container {
+        margin-top: -10px;
     }
+    
     #display > p  {
          font-size: 5em;
      }
@@ -179,15 +189,12 @@ footer a:hover {
 @media (max-width: 375px) {   
     .container {
         display: flex;
-        justify-content: flex-start;
-        margin-top: 30%;
+        justify-content: center;
         height: 82vh;
-    } 
-    #display {
-        border: 7px solid lime;
-        border-radius: 5px;
+    }     
         
     }
+
     #display > p {
          font-size: 4em;
          
@@ -205,13 +212,11 @@ footer a:hover {
 @media (max-width: 320px) {
     .container {
         display: flex;
-        justify-content: flex-start;
-        margin-top: 30%;
+        justify-content: center;
+        margin-top: -10px;
         height: 82vh;
     }
-    #display {
-        border: 7px solid lime;
-        border-radius: 5px;
+   
     
     }
     #display > p {
